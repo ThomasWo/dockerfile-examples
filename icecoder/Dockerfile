@@ -1,5 +1,5 @@
 
-FROM ubuntu:12.04
+FROM ubuntu:14.04
 
 RUN apt-get update
 RUN apt-get install -y apache2 php5 libapache2-mod-php5 unzip
